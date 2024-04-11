@@ -1,0 +1,66 @@
+.navbar-nav {
+    justify-content: center !important;
+    height: 100px;
+}
+
+.nav-bar {
+    width: 100%;
+    justify-content: space-evenly !important;
+}
+
+.nav-item {
+    p {
+        font-size: 2em;
+    }
+}
+
+.container-accueil {
+    width: 100vw;
+    height: 100vh;
+}
+
+.background-accueil {
+    background-image: url('../image/background-image-accueil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.typed-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65vh;
+    margin-top: 6vh;
+}
+
+.container1 {
+    width: 60vh;
+}
+
+.container2 {
+    width: 11vh;
+}
+
+.texte {
+    font-size: 3.5em;
+}
+
+.texte1 {
+    font-size: 1.2em;
+}
+
+.texte2 {
+    font-size: 1.6em;
+}
+
+.texte3 {
+    font-size: 2em;
+}
+
+.texte4 {
+    font-size: 1.4em;
+}
+
+.texte5 {
+    font-size: 1.3em;
+}

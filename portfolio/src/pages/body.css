@@ -1,0 +1,40 @@
+.a-propos-de-moi {
+    background-color: rgb(216, 211, 211);
+}
+
+.img-profil {
+    clip-path: circle();
+    width: 50%;
+}
+
+.title-moi {
+    font-size: 4em;
+    text-align: center;
+}
+
+.col-img-profil {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 2s;
+    
+}
+
+.hidden-anim-1 {
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+.hidden-anim-2 {
+    transform: translateX(100%);
+    filter: blur(5px);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
